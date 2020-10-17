@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>class define</h2>
+
+<p>Js class.</p>
+
+<p id="cla"></p>
+
+<script>
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+myCar = new Car("Ford", 2014);
+myCar1 = new Car("promio", 2012);
+document.getElementById("cla").innerHTML =
+myCar.name + " " + myCar.year;
+</script>
+
+</body>
+</html>
